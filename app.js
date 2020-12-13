@@ -9,10 +9,16 @@ todoButton.addEventListener('click', addTodo);
 
 
 
+
 //Functions
 function addTodo(event) {
     //prevent form from submitting
     event.preventDefault();
+    const todoDiv = document.createElement("div");
+    todoDiv.classList.add("todo");
 
 
 }
+
+
+console.log("My name is Tatiana");
